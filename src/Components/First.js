@@ -18,7 +18,7 @@ export default function First() {
  // Delete function
  const handleDelete=(_id)=>{   
     // console.log(_id)
-  axios.delete('https://abijar-backend-app.vercel.app/api/api/deletetask/'+_id)
+  axios.delete('https://abijar-backend-app.vercel.app/api/deletetask/'+_id)
   .then((response)=>
   {
    if(response.status==200)
