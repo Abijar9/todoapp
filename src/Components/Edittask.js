@@ -29,7 +29,7 @@ export default function Edittask() {
 
 
       let api = 'https://abijar-backend-app.vercel.app/api/get_task_data/'+edit_taskid
-        useEffect(() => {
+        useEffect(() => {https:
         axios.get(api).then((response) => {
             console.log(response.data.task_data)
             setData(response.data.task_data);            
